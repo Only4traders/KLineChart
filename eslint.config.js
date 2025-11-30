@@ -2,6 +2,7 @@ import { FlatCompat } from '@eslint/eslintrc'
 import love from 'eslint-config-love'
 import progress from 'eslint-plugin-file-progress'
 
+
 export default [
   ...new FlatCompat().extends('eslint-config-standard'),
   {
@@ -32,4 +33,4 @@ export default [
       '@typescript-eslint/prefer-destructuring': 'off'
     }
   }
-]
+];
